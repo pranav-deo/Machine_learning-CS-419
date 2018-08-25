@@ -1,10 +1,8 @@
 # CS 419 Assignment-1 Report (160070048-170040012)
 
 ## Tree building:
-First We have saved the input data into an numpy array and removed the header from it.
-Later we have implemented a binary tree named d_tree class
-
-Which has the following attributes:
+First, we have saved the input data into an numpy array and removed the header from it.
+Later we have implemented a binary tree named d_tree class which has the following attributes:
 
 ### Class d_tree:
 * Threshold height (this is a hyperparameter used to limit the tree growth)
@@ -26,7 +24,7 @@ The split value of the attribute is chosen using the square loss or the absolute
 
 
 ### Pruning:
-We have done the pruning using one-fold cross validation
+We have done the pruning using one-fold cross validation.
 The best height is selected on the basis of validation accuracy.
 
 
