@@ -34,26 +34,26 @@ The best height is selected on the basis of validation accuracy.
 #### Best_loss_values:
 Mean square train = 3.56(the min value)\
 Mean square val = 7.09(the min value)\
-When val is min train error is 3.79\
+When val is min train error is 3.79
 
 Absolute train = 1.0536(the min value)\
 Absolute val =  1.774(the min value)\
-When val is min train error is 1.184\
+When val is min train error is 1.184
 
 ### For kaggle 2:
 
 #### Best_loss_values:
 Mean square train = 0.6611(the min value)\
 Mean square val = 0.725(the min value)\
-When val is min train error is 0.723\
+When val is min train error is 0.723
 
 
 ### For Kaggle 1:
 
 Training time -> 0.712 s  (approximately)\
-Inference time ->  0.003 s  (approximately)\
+Inference time ->  0.003 s  (approximately)
 
 ### For Kaggle 2:
 
 Training time -> 16 s (approximately)\
-Inference time ->  0.012 s (approximately)\
+Inference time ->  0.012 s (approximately)
