@@ -1,4 +1,6 @@
-# CS 419 Assignment-1 Report (160070048-170040012)
+# Implementing decision tree
+
+###### To run for kaggle1 dataset: python decision_tree-kaggle_1.py 
 
 ## Tree building:
 First, we have saved the input data into an numpy array and removed the header from it.
