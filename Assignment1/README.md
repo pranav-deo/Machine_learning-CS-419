@@ -5,21 +5,21 @@ First, we have saved the input data into an numpy array and removed the header f
 Later we have implemented a binary tree named d_tree class which has the following attributes:
 
 ### Class d_tree:
-* Threshold height (this is a hyperparameter used to limit the tree growth)
-* Isleaf (indicator of the leaf)
-* Left,right child’s of the tree
-* Data which has the total data stored in it
-* Height (a variable which keeps on the count of height)
-* Pred(The prediction value of the tree i.e. the mean)
-* Corr(This matrix stores the correlation value of the all classes w.r.t to the last column(i.e. the output))
-* split_attribute(The split attribute id)
-* split_index(the value of the attribute about which the row splitting is done)
-* d (the size of the data present)
-* Left_data and right_data(which store the left and right split matrices)
-* standard_dev(which is the mean square loss of the last column (note it isn’t standard deviation)
+* __Threshold height__ (this is a hyperparameter used to limit the tree growth)
+* __Isleaf__ (indicator of the leaf)
+* __Left,right__ childs of the tree
+* __Data__ which has the total data stored in it
+* __Height__ (a variable which keeps on the count of height)
+* __Pred__(The prediction value of the tree i.e. the mean)
+* __Corr__(This matrix stores the correlation value of the all classes w.r.t to the last column(i.e. the output))
+* __split_attribute__(The split attribute id)
+* __split_index__(the value of the attribute about which the row splitting is done)
+* __d__ (the size of the data present)
+* __Left_data__ and __right_data__(which store the left and right split matrices)
+* __standard_dev__(which is the mean square loss of the last column (note it isn’t standard deviation)
 
 ### Splitting criteria:
-We have selected the split attribute on the basis of correlation i.e. we have calculated the correlation of each attribute w.r.t the output value and have chosen the attribute with the highest correlation coefficient. 
+We have selected the split attribute on the basis of correlation i.e. we have calculated the correlation of each attribute w.r.t the output value and have chosen the attribute with the __highest correlation coefficient__. 
 The split value of the attribute is chosen using the square loss or the absolute loss (as per the argument).
 
 
